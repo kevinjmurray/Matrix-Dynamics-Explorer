@@ -27,12 +27,12 @@ SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-dotenv.load_dotenv()
-SECRET_KEY = os.environ['SECRET_KEY']
+#dotenv.load_dotenv()
+SECRET_KEY = 'django-insecure-zs9=ybdh7mt3y3tcda79^esv_h+4=#h0ykwjjy%h-=lihn3&1n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
+#DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = []
 
