@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-zs9=ybdh7mt3y3tcda79^esv_h+4=#h0ykwjjy%h-=lihn3&1n
 DEBUG = False
 #DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://matrix-dynamics-explorer-production.up.railway.app/', '0.0.0.0:6834']
 
 
 # Application definition
