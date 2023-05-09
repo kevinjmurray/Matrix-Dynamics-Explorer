@@ -22,7 +22,7 @@ SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-CSRF_TRUSTED_ORIGINS = ['https://matrix-dynamics-explorer-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://mde.up.railway.app/']
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
