@@ -10,7 +10,6 @@ coverage = "*"
 django-random-id-model = "*"
 pandas = "*"
 scipy = "*"
-whitenoise = "*"
 
 [dev-packages]
 
