@@ -4,7 +4,7 @@ async function verifyPoly() {
     // We must convert any plus signs 
     polynomial = convertPlusSigns(polynomial);
 
-    const response = await fetch('https://mde.up.railway.app//verifyPoly/?polynomial=' + polynomial); 
+    const response = await fetch('https://mde.up.railway.app/verifyPoly/?polynomial=' + polynomial); 
     let responseJSON = await response.json(); 
 
     let usernametext = document.getElementById('usernametext');

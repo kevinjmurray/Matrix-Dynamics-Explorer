@@ -3,7 +3,7 @@ async function verifyFile() {
     let fileInput = document.getElementsByName("csv")[0];
     let file = fileInput.files[0];
     console.log("Verifying...");
-    const response = await fetch('https://mde.up.railway.app//verifyFile/?filename=' + file); 
+    const response = await fetch('https://mde.up.railway.app/verifyFile/?filename=' + file); 
     let responseJSON = await response.json(); 
 
     let usernametext = document.getElementById('usernametext');
